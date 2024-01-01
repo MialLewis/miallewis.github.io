@@ -49,32 +49,3 @@ h1 {
     z-index: 99;
     width: 100%;
 }
-
-.link-bar {
-  background-color: gray;
-  display: inline-block;
-  margin-top: 56px;
-  width: 100%;
-  padding-top: 7.5px;
-  padding-bottom: 7.5px;
-}
-.link-block {
-  padding-left: 5px;
-  padding-right: 15px;
-  padding-top: 7.5px;
-  padding-bottom: 7.5px;
-  border-right: 1px solid rgb(172, 168, 161);
-}
-
-.link-block a:link{
-  color: blueviolet;
-  text-decoration: none;
-}
-.link-block a:visited {
-  color: blueviolet;
-  text-decoration: none;
-}
-.link-block a:active {
-  color: blueviolet;
-  text-decoration: underline;
-}
