@@ -9,6 +9,7 @@ body {
 
 h1 {
     font-size:13px;
+    padding-left: 5px;
 }
 
 .typed-out {
@@ -18,6 +19,7 @@ h1 {
     font-size: 13px;
     width: 0;
     height: auto;
+    padding-left: 5px;
     animation:
       typing 1s steps(20, end) forwards,
       blink 1.2s infinite;
