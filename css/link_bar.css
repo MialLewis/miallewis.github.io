@@ -1,7 +1,6 @@
 .link-bar {
     background-color: gray;
     display: inline-block;
-    margin-top: 56px;
     width: 100%;
     padding-top: 7.5px;
     padding-bottom: 7.5px;
@@ -29,4 +28,3 @@
     color: blueviolet;
     text-decoration: underline;
   }
-  
