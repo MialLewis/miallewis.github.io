@@ -1,0 +1,18 @@
+@import "reset.css";
+
+h1 {
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+h4 {
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+p {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
