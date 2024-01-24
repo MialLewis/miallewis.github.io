@@ -1,7 +1,15 @@
-.blog-img {
+.blog-img-ls {
     display:block;
     width: 100%;
     height: auto;
+  }
+
+  .blog-img-p {
+    display:block;
+    width: 55%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .text-block {
@@ -18,6 +26,7 @@
 
 .image-txt-container {
   position: relative;
+  background-color: black;
 }
 
 .button-img {
