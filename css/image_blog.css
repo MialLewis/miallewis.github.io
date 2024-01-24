@@ -34,13 +34,15 @@
   width: 20%;
   height: auto;
   outline: none;
+  pointer-events: all;
 }
 
 .skip-button-container {
   position: fixed;
   z-index:9999;
-  width: 100%;
   margin: 0;
+  width: 100%;
+  pointer-events: none;
 }
 
 .skip-button-container a:active {
