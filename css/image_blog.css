@@ -1,4 +1,4 @@
-img {
+.blog-img {
     display:block;
     width: 100%;
     height: auto;
@@ -18,4 +18,26 @@ img {
 
 .image-txt-container {
   position: relative;
+}
+
+.button-img {
+  float: right;
+  width: 20%;
+  height: auto;
+  outline: none;
+}
+
+.skip-button-container {
+  position: fixed;
+  z-index:9999;
+  width: 100%;
+  margin: 0;
+}
+
+.skip-button-container a:active {
+  outline: none;
+}
+
+.skip-button-container a:focus {
+  outline: none;
 }
