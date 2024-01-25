@@ -1,4 +1,4 @@
-import { clickListenerActive } from "./js/skip_button_onclick.js";
+import { clickListenerActive } from "./skip_button_onclick.js";
 document.addEventListener('scroll', function() {
     var myButton = document.getElementById('NZ_skip_button');
     var referenceObj = document.getElementById('NZ_START');
