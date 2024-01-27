@@ -1,0 +1,33 @@
+body { 
+    background-color:rgb(0, 0, 0);
+    font-family: 'Arial, Trebuchet MS';
+}
+
+.header-container{
+    color: white;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.name-block{
+    font-size: 40px;
+    width: 70%;
+}
+
+.name-block h1{
+    text-align: center;
+}
+
+.detail-block-l{
+    font-size: 15px;
+    width: 15%;
+    text-align: left;
+}
+
+.detail-block-r{
+    font-size: 15px;
+    width: 15%;
+    text-align: right;
+}
