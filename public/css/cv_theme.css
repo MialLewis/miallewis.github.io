@@ -13,7 +13,8 @@ body {
 
 .name-block{
     font-size: 40px;
-    width: 70%;
+    width: 60%;
+    box-sizing: border-box;
 }
 
 .name-block h1{
@@ -22,12 +23,14 @@ body {
 
 .detail-block-l{
     font-size: 15px;
-    width: 15%;
+    width: 20%;
     text-align: left;
+    box-sizing: border-box;
 }
 
 .detail-block-r{
     font-size: 15px;
-    width: 15%;
+    width: 20%;
     text-align: right;
+    box-sizing: border-box;
 }
