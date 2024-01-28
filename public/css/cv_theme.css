@@ -70,32 +70,11 @@ a:active {
     color: white;
     width: 100%;
     background-color: rgb(53, 51, 51);
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .section-header-container-up h2{
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-weight: bold;
-    width: 100%;
-    color: white;
-    position: absolute;
-    text-align: center;
-}
-
-.section-header-container-up:after {
-    content: '+';
-    color: white;
-}
-
-.section-header-container-down{
-    color: white;
-    width: 100%;
-    background-color: rgb(53, 51, 51);
-}
-
-.section-header-container-down h2{
-    padding-top: 2px;
-    padding-bottom: 2px;
     font-weight: bold;
     width: 100%;
     color: white;
@@ -106,7 +85,23 @@ a:active {
 .section-header-container-up:after {
     content: '−';
     color: white;
-  }
+}
+
+.section-header-container-down{
+    color: white;
+    width: 100%;
+    background-color: rgb(53, 51, 51);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.section-header-container-down h2{
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
 
 .section-header-container-down:after {
     content: '−';
