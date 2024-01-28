@@ -1,20 +1,19 @@
-var coll = document.getElementsByClassName("section-header-container-up");
-var i;
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    var content = this.nextElementSibling;
-    manipulateContent(this, content);
-  });
-} 
+applyListenerToAllElements("section-header-container-up", false);
+applyListenerToAllElements("section-header-container-down", false);
 
-coll = document.getElementsByClassName("section-header-container-down");
-for (i = 0; i < coll.length; i++) {
-  coll[i].classList.toggle("active");
-  coll[i].addEventListener("click", function() {
-    var content = this.nextElementSibling;
-    manipulateContent(this, content);
-  });
-} 
+function applyListenerToAllElements(element, active){
+  var coll = document.getElementsByClassName(element);
+  var i;
+  if(active){
+    coll[i].classList.toggle("active");
+  }
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      var content = this.nextElementSibling;
+      manipulateContent(this, content);
+    });
+  } 
+}
 
 function manipulateContent(header, content){
   if (content.style.maxHeight){
