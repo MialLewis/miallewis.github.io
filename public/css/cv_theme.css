@@ -84,6 +84,23 @@ a:active {
     position: relative;
 }
 
+.cv-section .job-title{
+    background-color:rgb(109, 109, 109);
+}
+
+.section-header-container-up .job-title-h2, .section-header-container-down .job-title-h2{
+    text-align: left;
+    margin-left: 30px;
+    width: auto;
+}
+
+.section-header-container-up .job-date-h2, .section-header-container-down .job-date-h2{
+    width: auto;
+    float: right;
+    position: relative;
+    padding-right: 5px;
+}
+
 .section-header-container-up h3, .section-header-container-down h3{
     font-weight: bold;
     width: 100%;
@@ -124,4 +141,17 @@ a:active {
 
 .section-content .line{
     width: 100%;
+}
+
+.line h4{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+ul{
+	padding-left: 20px;
+    padding-bottom: 5px;
 }
