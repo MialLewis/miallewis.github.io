@@ -7,6 +7,9 @@ function applyListenerToAllElements(element, active){
   for (i = 0; i < coll.length; i++) {
     if(active){
       coll[i].classList.toggle("active");
+    } else {
+      let content = coll[i].nextElementSibling;
+      content.style.maxHeight = content.scrollHeight + "px";
     }
     coll[i].addEventListener("click", function() {
       var content = this.nextElementSibling;
