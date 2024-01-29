@@ -80,6 +80,14 @@ a:active {
     text-align: center;
 }
 
+.section-header-container-up h3{
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    position: absolute;
+    text-align: left;
+}
+
 .section-header-container-up:after {
     content: '−';
     color: white;
@@ -106,6 +114,21 @@ a:active {
     color: white;
   }
 
+.section-header-container{
+    color: white;
+    width: 100%;
+    background-color: rgb(53, 51, 51);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.section-header-container h2{
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
 .active:after {
     content: '+';
     color: white;
@@ -119,4 +142,18 @@ a:active {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     max-height: 0px;
+}
+
+.section-content-container h3{
+    display: inline-block;
+    font-weight: bold;
+    width: 150px;
+}
+
+.section-content-container p{
+    display: inline;
+}
+
+.section-content .line{
+    width: 100%;
 }
