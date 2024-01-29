@@ -64,7 +64,7 @@ a:active {
     display: block;
 }
 
-.section-header-container-up{
+.section-header-container-up, .section-header-container-down, .section-header-container{
     color: white;
     width: 100%;
     background-color: rgb(53, 51, 51);
@@ -72,7 +72,7 @@ a:active {
     padding-bottom: 2px;
 }
 
-.section-header-container-up h2{
+.section-header-container-up h2, .section-header-container-down h2, .section-header-container h2{
     font-weight: bold;
     width: 100%;
     color: white;
@@ -80,7 +80,11 @@ a:active {
     text-align: center;
 }
 
-.section-header-container-up h3{
+.section-header-container h2{
+    position: relative;
+}
+
+.section-header-container-up h3, .section-header-container-down h3{
     font-weight: bold;
     width: 100%;
     color: white;
@@ -88,45 +92,9 @@ a:active {
     text-align: left;
 }
 
-.section-header-container-up:after {
+.section-header-container-up:after, .section-header-container-down:after{
     content: '−';
     color: white;
-}
-
-.section-header-container-down{
-    color: white;
-    width: 100%;
-    background-color: rgb(53, 51, 51);
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-.section-header-container-down h2{
-    font-weight: bold;
-    width: 100%;
-    color: white;
-    position: absolute;
-    text-align: center;
-}
-
-.section-header-container-down:after {
-    content: '−';
-    color: white;
-  }
-
-.section-header-container{
-    color: white;
-    width: 100%;
-    background-color: rgb(53, 51, 51);
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-.section-header-container h2{
-    font-weight: bold;
-    width: 100%;
-    color: white;
-    text-align: center;
 }
 
 .active:after {
