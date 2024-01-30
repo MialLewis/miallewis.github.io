@@ -4,6 +4,8 @@ function resetHeader(){
     homeLink.on('click', function() {
         window.location = 'resume.html';
     });
+    homeLink.removeClass('home-link');
+    homeLink.addClass('cv-link');
 
     $('.sep-placeholder').text('/');
 
@@ -12,6 +14,8 @@ function resetHeader(){
     travelLink.on('click', function() {
         window.location = 'travel.html';
     });
+    travelLink.removeClass('travel-placeholder');
+    travelLink.addClass('travel-link');
 
     $('.header').width('55%');
 };
