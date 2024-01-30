@@ -9,16 +9,14 @@
     }
   }
 
-body{
-    background: rgb(19, 18, 18);
-}
-
-.base-bg{
-    background: rgb(240, 56, 56);
-    transition: 3s;
-    animation: fadeIn 3s;
-}
-
-.header{
-    width: 35%;
-}
+  @keyframes fadeOut {
+    from {
+      background: rgb(240, 56, 56);
+      opacity: 1;
+    }
+    to {
+      background: rgb(19, 18, 18);
+      opacity: 0.33;
+    }
+  }
+  

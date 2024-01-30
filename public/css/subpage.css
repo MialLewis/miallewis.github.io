@@ -1,0 +1,17 @@
+.fade-bg{
+    animation: fadeOut 2s !important;
+    animation-fill-mode: forwards;
+}
+
+.base-bg{
+    animation: fadeIn 3s;
+    animation-fill-mode: forwards;
+}
+
+body{
+    background: rgb(19, 18, 18);
+}
+
+.header{
+    width: 38%;
+}
