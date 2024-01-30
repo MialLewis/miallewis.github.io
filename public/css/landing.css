@@ -1,9 +1,12 @@
 body{
-    background: rgb(19, 18, 18);
     color: white;
     margin: 0;
     overflow-x: hidden;
     font-family: 'Noto Sans Mono'
+}
+
+.base-bg{
+    background: rgb(19, 18, 18);
 }
 
 .header{
@@ -32,6 +35,10 @@ body{
 
 .travel-link:hover{
     color:rgb(240, 56, 56);
+}
+
+.home-link:hover{
+    color:rgb(19, 18, 18);
 }
 
 @keyframes flicker {
@@ -74,4 +81,10 @@ body{
     100% {
         transform: translate(-0.83%, 1%);
     }
+}
+
+.header a {
+    all: unset;
+    display: flex;
+    cursor: pointer;
 }

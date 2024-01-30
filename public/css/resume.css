@@ -1,0 +1,24 @@
+@keyframes fadeIn {
+    from {
+      background: rgb(19, 18, 18);
+      opacity: 0;
+    }
+    to {
+      background: rgb(118, 218, 184);
+      opacity: 1;
+    }
+  }
+
+body{
+    background: rgb(19, 18, 18);
+}
+
+.base-bg{
+    background: rgb(118, 218, 184);
+    transition: 3s;
+    animation: fadeIn 3s;
+}
+
+.header{
+    width: 35%;
+}
