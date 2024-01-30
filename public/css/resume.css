@@ -16,12 +16,12 @@
     }
     to {
       background: rgb(19, 18, 18);
-      opacity: 0;
+      opacity: 0.33;
     }
   }
 
 .fade-bg{
-    animation: fadeOut 3s !important;
+    animation: fadeOut 2s !important;
     animation-fill-mode: forwards;
 }
 
