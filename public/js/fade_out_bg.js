@@ -1,22 +1,17 @@
+function resetLink(removeClass, newClass, newText, newUrl){
+    let link = $('.' + removeClass);
+    link.text(newText);
+    link.on('click', function() {
+        window.location = newUrl;
+    });
+    link.removeClass(removeClass);
+    link.addClass(newClass);
+}
+
 function resetHeader(){
-    let homeLink = $('.home-link');
-    homeLink.text('RESUME');
-    homeLink.on('click', function() {
-        window.location = 'resume.html';
-    });
-    homeLink.removeClass('home-link');
-    homeLink.addClass('cv-link');
-
+    resetLink('home-link', 'cv-link', 'RESUME', 'resume.html');
     $('.sep-placeholder').text('/');
-
-    let travelLink = $('.travel-placeholder');
-    travelLink.text('TRAVEL');
-    travelLink.on('click', function() {
-        window.location = 'travel.html';
-    });
-    travelLink.removeClass('travel-placeholder');
-    travelLink.addClass('travel-link');
-
+    resetLink('travel-placeholder', 'travel-link', 'TRAVEL', 'travel.html');
     $('.header').width('55%');
 };
 
