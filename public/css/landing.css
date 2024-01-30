@@ -1,0 +1,60 @@
+body{
+    background: rgb(19, 18, 18);
+    color: white;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Noto Sans Mono'
+}
+
+.header{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.header p{
+    font-size: 40px;
+    display: inline;
+}
+
+.header-link:hover{
+	animation: flicker 0.2s 4 cubic-bezier(0.42, 0, 0.58, 1),
+               vibrate 0.2s 4 cubic-bezier(0.2, 1, 0.71, 1); 
+}
+
+@keyframes flicker {
+    10% {
+        color:#303030;
+    }
+    35% {
+        color:rgb(255, 255, 255);
+    }
+    50% {
+        color:#303030;
+        }
+    55% {
+        color:rgb(255, 255, 255);
+    }
+}
+
+@keyframes vibrate {
+    10% {
+        transform: translate(0.75%, 0.65%);
+    }
+    25% {
+        transform: translate(-0.25%, -0.75%);
+    }
+    65% {
+        transform: translate(-0.46%, 1.1%);
+    }
+    90% {
+        transform: translate(0.79%, -1%);
+    }
+    100% {
+        transform: translate(-0.83%, 1%);
+    }
+}
