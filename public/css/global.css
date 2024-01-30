@@ -1,5 +1,12 @@
 @import "reset.css";
 
+body{
+    color: white;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Noto Sans Mono'
+}
+
 h1 {
     font-weight: bold;
     padding-top: 7px;
