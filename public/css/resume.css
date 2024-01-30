@@ -9,16 +9,32 @@
     }
   }
 
+@keyframes fadeOut {
+    from {
+      background: rgb(118, 218, 184);
+      opacity: 1;
+    }
+    to {
+      background: rgb(19, 18, 18);
+      opacity: 0;
+    }
+  }
+
+.fade-bg{
+    animation: fadeOut 3s !important;
+    animation-fill-mode: forwards;
+}
+
+
+.base-bg{
+    animation: fadeIn 3s;
+    animation-fill-mode: forwards;
+}
+
 body{
     background: rgb(19, 18, 18);
 }
 
-.base-bg{
-    background: rgb(118, 218, 184);
-    transition: 3s;
-    animation: fadeIn 3s;
-}
-
 .header{
-    width: 35%;
+    width: 38%;
 }
