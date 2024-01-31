@@ -2,12 +2,12 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    margin-left: 11px;
-    margin-top: -1px;
+    margin-left: 0.8vw;
+    margin-top: -0.1vw;
 }
 
 .header p{
-    font-size: 40px;
+    font-size: 3.125vw;
     display: inline;
 }
 
