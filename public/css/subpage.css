@@ -29,8 +29,8 @@ body{
 }
 
 .container-anim{
-  animation: fadeContIn 3s;
-  animation-delay: 2s;
+  animation: fadeContIn 2.5s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
 }
 
