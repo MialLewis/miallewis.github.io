@@ -28,3 +28,9 @@ p {
     padding-top: 2px;
     padding-left: 2px;
 }
+
+:root {
+    --landing-color:rgb(19, 18, 18);
+    --travel-color: rgb(240, 56, 56);
+    --resume-color:rgb(118, 218, 184);
+}

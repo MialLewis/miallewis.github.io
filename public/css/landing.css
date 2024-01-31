@@ -1,5 +1,5 @@
 .base-bg{
-    background: rgb(19, 18, 18);
+    background: var(--landing-color);
 }
 
 .header{

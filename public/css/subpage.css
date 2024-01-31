@@ -9,9 +9,41 @@
 }
 
 body{
-    background: rgb(19, 18, 18);
+    background: var(--landing-color);
 }
 
 .header{
     width: 38%;
 }
+
+.container{
+    background: var(--landing-color);
+    margin-top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 100vh;
+    opacity: 0;
+    position: fixed;
+    animation: fadeContIn 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeContIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.4;
+    }
+  }
+
+@keyframes fadeContOut {
+    from {
+      opacity: 4;
+    }
+    to {
+      opacity: 0;
+    }
+  }
