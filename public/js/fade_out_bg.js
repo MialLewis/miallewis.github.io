@@ -15,6 +15,19 @@ function resetHeader(){
     $('.header').width('55%');
 };
 
+function fadeOutContainer(element) {
+    let opacity = element.css('opacity');
+    element.removeClass('container-anim');
+    element.css('opacity', opacity);
+
+    setInterval(function() {
+       if (opacity > 0) {
+          opacity -= 0.05;
+          element.css('opacity', opacity);
+       }
+    }, 50);
+ }
+ 
 $(function(){
     $('.home-link').click(function(){
         resetHeader();
@@ -23,5 +36,7 @@ $(function(){
             window.location = 'index.html';
         });
         baseBg.addClass('fade-bg');
+        let container = $('.container');
+        fadeOutContainer(container);
     });
 });

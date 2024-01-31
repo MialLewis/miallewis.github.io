@@ -25,9 +25,13 @@ body{
     height: 100vh;
     opacity: 0;
     position: fixed;
-    animation: fadeContIn 3s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
+
+}
+
+.container-anim{
+  animation: fadeContIn 3s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeContIn {
@@ -39,11 +43,7 @@ body{
     }
   }
 
-@keyframes fadeContOut {
-    from {
-      opacity: 4;
-    }
-    to {
-      opacity: 0;
-    }
-  }
+.fade-out-cont {
+  opacity: 0;
+  transition: opacity 3s linear;
+}
