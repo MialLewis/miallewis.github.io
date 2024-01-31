@@ -1,15 +1,18 @@
 .header{
-    position: fixed;
-    top: 10px;
-    left: 10px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    margin-left: 11px;
+    margin-top: -1px;
 }
 
 .header p{
     font-size: 40px;
     display: inline;
+}
+
+.home-link, .cv-link, .travel-link{
+    position: absolute;
 }
 
 .home-link:hover, .cv-link:hover, .travel-link:hover{
@@ -18,15 +21,15 @@
 }
 
 .cv-link:hover{
-    color:rgb(118, 218, 184);
+    color:var(--resume-color);
 }
 
 .travel-link:hover{
-    color:rgb(240, 56, 56);
+    color:var(--travel-color);
 }
 
 .home-link:hover{
-    color:rgb(19, 18, 18);
+    color:var(--landing-color);
 }
 
 @keyframes flicker {
