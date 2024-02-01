@@ -1,22 +1,11 @@
 @keyframes fadeIn {
     from {
-      background: rgb(19, 18, 18);
+      background: var(--landing-color);
       opacity: 0;
     }
     to {
-      background: rgb(240, 56, 56);
+      background: var(--travel-color);
       opacity: 1;
-    }
-  }
-
-  @keyframes fadeOut {
-    from {
-      background: rgb(240, 56, 56);
-      opacity: 1;
-    }
-    to {
-      background: rgb(19, 18, 18);
-      opacity: 0.33;
     }
   }
   

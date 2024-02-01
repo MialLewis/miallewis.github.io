@@ -27,6 +27,11 @@ h4 {
 
 :root {
     --landing-color:rgb(19, 18, 18);
+    --cont-color-fade-start: rgba(19, 18, 18, 0);
+    --cont-color-fade-end: rgba(19, 18, 18, 0.6);
     --travel-color: rgb(240, 56, 56);
     --resume-color:rgb(118, 218, 184);
+    --end-opacity: 0.4;
+    --trans: 0.4;
+    --opaque: 1;
 }
