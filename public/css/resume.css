@@ -13,7 +13,7 @@
   @keyframes fadeOut {
     from {
       background: var(--resume-color);
-      opacity: 1;
+      opacity: var(--bg-opacity);
     }
     to {
       background: var(--landing-color);

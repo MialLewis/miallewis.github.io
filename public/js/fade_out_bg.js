@@ -32,6 +32,8 @@ $(function(){
     $('.home-link').click(function(){
         resetHeader();
         let baseBg = $('.base-bg');
+        let baseBgOpacity = baseBg.css('opacity');
+        $('html').css('--bg-opacity', baseBgOpacity);
         baseBg.on('animationend', function() {
             window.location = 'index.html';
         });

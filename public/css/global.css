@@ -34,4 +34,5 @@ h4 {
     --end-opacity: 0.4;
     --trans: 0.4;
     --opaque: 1;
+    --bg-opacity: 1;
 }
