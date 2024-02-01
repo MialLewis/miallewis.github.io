@@ -16,6 +16,6 @@
     }
     to {
       background: var(--landing-color);
-      opacity: 0.33;
+      opacity: 0;
     }
   }

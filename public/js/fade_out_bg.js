@@ -15,17 +15,17 @@ function resetHeader(){
     $('.header').width('55%');
 };
 
-function fadeOutContainer(element) {
+function fadeElement(element) {
     let opacity = element.css('opacity');
-    element.removeClass('container-anim');
-    element.css('opacity', opacity);
-
-    setInterval(function() {
+    let stepTime = 600 / (opacity / 0.05);
+    let interval = setInterval(function() {
        if (opacity > 0) {
           opacity -= 0.05;
           element.css('opacity', opacity);
+       } else {
+          clearInterval(interval);
        }
-    }, 50);
+    }, stepTime);
  }
  
 $(function(){
@@ -35,8 +35,12 @@ $(function(){
         baseBg.on('animationend', function() {
             window.location = 'index.html';
         });
+        $('.container').each(function() {
+            fadeElement($(this));
+        });
+        $('.container-anim').each(function() {
+            fadeElement($(this));
+        });
         baseBg.addClass('fade-bg');
-        let container = $('.container');
-        fadeOutContainer(container);
     });
 });
