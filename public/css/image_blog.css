@@ -43,6 +43,7 @@
   margin: 0;
   width: 100%;
   pointer-events: none;
+  opacity: 0;
 }
 
 .skip-button-container a:active {
