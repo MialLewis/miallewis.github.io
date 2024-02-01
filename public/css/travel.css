@@ -9,3 +9,13 @@
     }
   }
   
+  @keyframes fadeOut {
+    from {
+      background: var(--travel-color);
+      opacity: 1;
+    }
+    to {
+      background: var(--landing-color);
+      opacity: 0.33;
+    }
+  }
