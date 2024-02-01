@@ -7,10 +7,10 @@
       background: var(--resume-color);
       opacity: 1;
     }
-  }
+}
 
 
-  @keyframes fadeOut {
+@keyframes fadeOut {
     from {
       background: var(--resume-color);
       opacity: var(--bg-opacity);
@@ -19,4 +19,135 @@
       background: var(--landing-color);
       opacity: 0;
     }
-  }
+}
+
+.name-block{
+    font-size: 40px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.name-block h1{
+    text-align: center;
+}
+
+.detail-block-l{
+    font-size: 15px;
+    width: 20%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.detail-block-r{
+    font-size: 15px;
+    width: 20%;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 5px;
+}
+
+.cv-section{
+    color: white;
+    padding-top: 12.5px;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+}
+
+.section-header-container-up, .section-header-container-down, .section-header-container{
+    color: white;
+    width: 100%;
+    background-color: rgb(53, 51, 51);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    align-content: flex-start;
+}
+
+.section-header-container-up h2, .section-header-container-down h2, .section-header-container h2{
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    position: relative;
+    text-align: center;
+    order: 2;
+}
+
+.cv-section .job-title{
+    background-color:rgb(109, 109, 109);
+}
+
+.section-header-container-up .job-title-h2, .section-header-container-down .job-title-h2{
+    text-align: left;
+    margin-left: 30px;
+    width: auto;
+}
+
+.section-header-container-up .job-date-h2, .section-header-container-down .job-date-h2{
+    width: auto;
+    position: relative;
+    padding-right: 5px;
+    order: 3;
+    margin-left: auto;
+}
+
+.section-header-container-up h3, .section-header-container-down h3{
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    text-align: left;
+}
+
+.section-header-container-up:after, .section-header-container-down:after{
+    content: '−';
+    color: white;
+    order: 1;
+}
+
+.active:after {
+    content: '+';
+    color: white;
+    order: 1;
+}
+
+.section-content-container{
+    color: white;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    display: block;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    max-height: 0px;
+}
+
+.section-content-container h3{
+    display: inline-block;
+    font-weight: bold;
+    width: 150px;
+}
+
+.section-content-container p{
+    display: inline;
+}
+
+.section-content .line{
+    width: 100%;
+}
+
+.line h4{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+ul{
+	padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+li .bold{
+    font-weight: bold;
+}
