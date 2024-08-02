@@ -35,7 +35,7 @@ $(function(){
         let baseBgOpacity = baseBg.css('opacity');
         $('html').css('--bg-opacity', baseBgOpacity);
         baseBg.on('animationend', function() {
-            window.location = '/index.html';
+            window.location = '/public/index.html';
         });
         $('.container').each(function() {
             fadeElement($(this));
