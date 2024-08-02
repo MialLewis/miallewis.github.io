@@ -18,6 +18,9 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
+    "start-all": "concurrently \"npm run start\" \"npm run start-react\"",
+    "start": "node server.js",
+    "start-react": "cd public/travel && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

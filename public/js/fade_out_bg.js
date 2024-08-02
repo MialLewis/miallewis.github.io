@@ -11,7 +11,7 @@ function resetLink(removeClass, newClass, newText, newUrl){
 function resetHeader(){
     resetLink('home-link', 'cv-link', 'RESUME', 'resume.html');
     $('.sep-placeholder').text('/');
-    resetLink('travel-placeholder', 'travel-link', 'TRAVEL', 'travel.html');
+    resetLink('travel-placeholder', 'travel-link', 'TRAVEL', 'travel/public/travel.html');
     $('.header').width('55%');
 };
 
@@ -35,7 +35,7 @@ $(function(){
         let baseBgOpacity = baseBg.css('opacity');
         $('html').css('--bg-opacity', baseBgOpacity);
         baseBg.on('animationend', function() {
-            window.location = 'index.html';
+            window.location = '/index.html';
         });
         $('.container').each(function() {
             fadeElement($(this));
