@@ -11,7 +11,7 @@ function resetLink(removeClass, newClass, newText, newUrl){
 function resetHeader(){
     resetLink('home-link', 'cv-link', 'RESUME', 'resume.html');
     $('.sep-placeholder').text('/');
-    resetLink('travel-placeholder', 'travel-link', 'TRAVEL', 'travel/public/travel.html');
+    resetLink('travel-placeholder', 'travel-link', 'TRAVEL', 'travel/build/index.html');
     $('.header').width('55%');
 };
 

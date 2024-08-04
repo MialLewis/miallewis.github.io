@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <header>
-        <p>
+        <p className = 'App-header'>
           The current index number is: {index}
         </p>
       </header>
