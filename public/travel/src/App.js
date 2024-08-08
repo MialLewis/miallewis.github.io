@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const photos = [
-  { src: '../../images/CastleView', heading: 'Pena Palace, Sintra', date: '01/10/2023', caption: 'View from Castelo dos Mouros', alt: 'View of Pena Palace, Sintra' },
+  { src: '../../images/CastleView', heading: 'Pena Palace, Sintra', date: '01/10/2023', caption: 'View from Castelo dos Mouros', alt: 'Pena Palace, Sintra' },
   { src: '../../images/CastleWall', heading: 'Castelo dos Mouros, Sintra', date: '01/10/2023', caption: 'Castle walls', alt: 'Walls of Castelo dos Mouros' },
 ];
 

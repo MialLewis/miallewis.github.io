@@ -18,9 +18,11 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "start-all": "npm run build-react && npm run start",
+    "start-all-dev": "npm run build-react && npm run start",
+    "start-all-prod": "npm run build-react-prod && npm run start",
     "start": "node server.js",
     "build-react": "cd public/travel && npm run build",
+    "build-react-prod": "cd public/travel && npm run build-prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

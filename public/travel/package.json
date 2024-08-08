@@ -14,6 +14,7 @@
     "start": "react-scripts start",
     "start-no-browser": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
+    "build-prod": "PUBLIC_URL=public/travel/build react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,5 +36,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "travel/build"
+  "homepage": ""
 }
