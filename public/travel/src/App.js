@@ -14,6 +14,10 @@ function App() {
   return (
     <div className = "container container-anim">
         <div className = "image-txt-container">
+            <div className = "nav-button-container">
+                <img src='../../assets/left-arrow.png' className = "nav-button" style={{'left': '10px'}} alt="left photo navigation button"/>
+                <img src='../../assets/right-arrow.png' className = "nav-button" style={{'float' : 'right', 'right': '10px'}} alt="right photo navigation button"/>
+            </div>
             <img src={photos[index].src} className = "blog-img-ls content-anim" style={{'--end-opacity': 'var(--opaque)'}} alt={photos[index].alt}/> 
             <div className = "text-block content-anim">
                 <h4>{photos[index].heading}<span style={{'float' : 'right'}}>{photos[index].date}</span></h4>
