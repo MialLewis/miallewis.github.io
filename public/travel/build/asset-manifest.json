@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "public/travel/build/static/js/main.3fa82612.js",
-    "index.html": "public/travel/build/index.html",
-    "main.3fa82612.js.map": "public/travel/build/static/js/main.3fa82612.js.map"
+    "main.js": "/public/travel/build/static/js/main.3fa82612.js",
+    "index.html": "/public/travel/build/index.html",
+    "main.3fa82612.js.map": "/public/travel/build/static/js/main.3fa82612.js.map"
   },
   "entrypoints": [
     "static/js/main.3fa82612.js"
