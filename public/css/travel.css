@@ -85,6 +85,7 @@ h4 {
   z-index: 1;
   position: relative;
   top: 10px;
+  pointer-events: all;
 }
 
 .nav-button-container {
