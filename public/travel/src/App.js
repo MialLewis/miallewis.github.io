@@ -1,9 +1,5 @@
 import { useState } from 'react';
-
-const photos = [
-  { src: '../../images/CastleView', heading: 'Pena Palace, Sintra', date: '01/10/2023', caption: 'View from Castelo dos Mouros', alt: 'Pena Palace, Sintra', class: 'blog-img-ls content-anim' },
-  { src: '../../images/CastleWall', heading: 'Castelo dos Mouros, Sintra', date: '01/10/2023', caption: 'Castle walls', alt: 'Walls of Castelo dos Mouros', class: 'blog-img-ls content-anim' },
-];
+import { photos } from './image_dict.js'
 
 function App() {
   const [index, setIndex] = useState(0);

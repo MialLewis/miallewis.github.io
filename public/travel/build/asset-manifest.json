@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/public/travel/build/static/js/main.db9a45bf.js",
+    "main.js": "/public/travel/build/static/js/main.a3d999ed.js",
     "index.html": "/public/travel/build/index.html",
-    "main.db9a45bf.js.map": "/public/travel/build/static/js/main.db9a45bf.js.map"
+    "main.a3d999ed.js.map": "/public/travel/build/static/js/main.a3d999ed.js.map"
   },
   "entrypoints": [
-    "static/js/main.db9a45bf.js"
+    "static/js/main.a3d999ed.js"
   ]
 }
